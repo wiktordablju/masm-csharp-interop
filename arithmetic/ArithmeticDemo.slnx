@@ -1,0 +1,13 @@
+﻿<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="ArithmeticDemo/ArithmeticDemo.csproj" Id="51a220a6-10e8-4fd9-99f1-8cb16f0866de">
+    <BuildDependency Project="NativeOps/NativeOps.vcxproj" />
+    <Platform Solution="Debug|Any CPU" Project="x64" />
+    <Platform Solution="Debug|x64" Project="x64" />
+  </Project>
+  <Project Path="NativeOps/NativeOps.vcxproj" Id="e3ea31e5-c577-470b-8679-0359d7baea52" />
+</Solution>
